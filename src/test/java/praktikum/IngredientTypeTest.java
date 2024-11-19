@@ -11,5 +11,4 @@ public class IngredientTypeTest {
     void IngredientTypeIncludeValue(IngredientType ingredient) {
         Assertions.assertNotNull(ingredient);
     }
-
 }

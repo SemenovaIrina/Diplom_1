@@ -17,7 +17,6 @@ class BunTest {
         bun = new Bun(BUN_NAME,BUN_PRICE);
     }
 
-
     @Test
     void getNameReturnCorrectBunName() {
         String actual = bun.getName();

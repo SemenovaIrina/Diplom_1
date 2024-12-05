@@ -8,7 +8,7 @@ public class IngredientTypeTest {
 
     @ParameterizedTest
     @EnumSource(IngredientType.class)
-    void IngredientTypeIncludeValue(IngredientType ingredient) {
+    void ingredientTypeIncludeValue(IngredientType ingredient) {
         Assertions.assertNotNull(ingredient, "В перечислении присутствуют не все ожидаемые значения");
     }
 }
